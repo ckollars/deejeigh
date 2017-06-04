@@ -1,0 +1,20 @@
+{
+  "name": "deejeigh",
+  "version": "1.0.0",
+  "description": "A Slack powered music bot for Spotify",
+  "main": "index.js",
+  "author": "Christopher Kollars",
+  "license": "MIT",
+  "dependencies": {
+    "apiserver": "^0.3.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "lodash": "^4.17.4",
+    "node-persist": "^2.0.11",
+    "spotify-web-api-node": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}

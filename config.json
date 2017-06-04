@@ -1,0 +1,13 @@
+{
+  "spotify": {
+    "username": "ckollars",
+    "password": "james0575",
+    "clientId": "d0e2c9a0b6af453196459d20cfc7d4df",
+    "clientSecret": "4b82c45761e843cfac3eb89e0c2b8bb2"
+  },
+  "slack": {
+    "tokens": [
+      "NJU07CgHoG4FUPs3Aif0z7By"
+    ]
+  }
+}
