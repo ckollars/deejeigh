@@ -6,17 +6,16 @@ const VolumeHandler = require('../volume_handler')();
 
 module.exports = function () {
   // Path to Spotify's AppKey
-
   store.initSync();
 
 
-  const SpotifyHandler = require('../spotify_handler')({
-    storage: store,
-    config: Config.spotify,
-    spotify: Spotify({
-      appkeyFile: appkey_path
-    })
-  });
+  // const SpotifyHandler = require('../spotify_handler')({
+  //   storage: store,
+  //   config: Config.spotify,
+  //   spotify: Spotify({
+  //     appkeyFile: appkey_path
+  //   })
+  // });
 
   return require('./request_handler')(AuthHandler, SpotifyHandler, VolumeHandler);
 };
