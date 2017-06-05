@@ -7,6 +7,8 @@ const ApiServer = require('apiserver');
 const SlackInterface = require('./app/slack_interface/SlackInterface')();
 const server = new ApiServer({ port: 8000 });
 
+// NOTE: Still trying to understand how to get the node server running
+//       and this apiserver package
 server.use(ApiServer.payloadParser());
 server.addModule('1', 'slack_interface', SlackInterface);
 
